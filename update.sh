@@ -17,10 +17,10 @@ git pull
 
 # Get the tag information
 latest_tag=$(git describe --tags "$(git rev-list --tags --max-count=1)")
-pypi_version_number="${latestTag:1}" # Remove the "v" at the start of the tag
+pypi_version_number="${latest_tag:1}" # Remove the "v" at the start of the tag
 
 # Checkout the tag
-git checkout $latest_tag
+git checkout "$latest_tag"
 
 # Export requirements
 poetry export --without-hashes -f requirements.txt -o ../requirements.txt  
