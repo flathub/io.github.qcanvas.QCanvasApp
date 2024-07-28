@@ -1,19 +1,32 @@
 #!/usr/bin/bash
 
-echo "fix me"
-# APP_ID=io.github.qcanvas.QCanvasApp
-#
-# pyenv local 3.11
-#
-# # Pypi doesn't always generate package information until someone installs it
-# utils/nudge-pypi
-#
-# # Doesn't work without arch-dependent-force!
-# pdm run utils/flatpak-pip-generator.py qcanvas --arch-dependent-force
-# # pdm run utils/metainfo-version-updater.py qcanvas $APP_ID.metainfo.xml
-#
-# if [ "$1" != "no-commit" ]; then
-#     git add python3-qcanvas.json $APP_ID.metainfo.xml $APP_ID.yaml
-#     git commit -m "Update manifest"
-# fi
-#
+mkdir -p .work-dir
+
+# Clone the repo
+if [ ! -d ".work-dir/QCanvas/" ]; then
+  git clone https://github.com/QCanvas/QCanvasApp.git .work-dir/QCanvas
+fi
+
+# Move into the repo
+cd .work-dir/QCanvas || exit
+
+# Reset the repo, fetch tags and pull
+git reset HEAD --hard
+git fetch --tags
+
+# Get the tag information
+latest_tag=$(git describe --tags "$(git rev-list --tags --max-count=1)")
+pypi_version_number="${latest_tag:1}" # Remove the "v" at the start of the tag
+
+# Checkout the tag
+git checkout "$latest_tag"
+
+# Export requirements
+poetry export --without-hashes -f requirements.txt -o ../requirements.txt  
+
+# Move to root dir
+cd ../..
+
+# Re-generate the manifest
+req2flatpak --requirements-file .work-dir/requirements.txt --target-platforms 311-x86_64 311-aarch64 --outfile python3-qcanvas.json --requirements qcanvas=="${pypi_version_number}"
+pdm run utils/update-meta-repo.py .work-dir/QCanvas qcanvas-desktop-files.json

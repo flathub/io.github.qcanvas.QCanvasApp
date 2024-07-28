@@ -1,5 +1,5 @@
-.flatpak-builder
-builddir
-repo
+/.flatpak-builder/
+/builddir/
+/repo/
 .python-version
-garbage
+/.work-dir/
