@@ -2,15 +2,15 @@
     "name": "qcanvas-desktop-data",
     "buildsystem": "simple",
     "build-commands": [
-        "install -D flatpak/${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml",
-        "install -D flatpak/${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
-        "install -D flatpak/${FLATPAK_ID}.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
+        "install -D deploy/flatpak/${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml",
+        "install -D deploy/flatpak/${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+        "install -D deploy/flatpak/${FLATPAK_ID}.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
     ],
     "sources": [
         {
             "type": "git",
             "url": "https://github.com/QCanvas/QCanvasApp.git",
-            "commit": "60081f707bf16b37cb615bb464d24ba99518d533"
+            "commit": "de10ed2c86b80d073c51ecfeeecd9d8b93914795"
         }
     ]
 }
