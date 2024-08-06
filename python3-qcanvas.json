@@ -2,7 +2,7 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation qcanvas aiosqlite annotated-types anyio asynchronize asynctaskpool backoff beautifulsoup4 brotli brotlicffi cachetools certifi cffi charset-normalizer darkdetect gql graphql-core greenlet h11 httpcore httpx idna lightdb markdown-it-py mdurl multidict mutagen packaging platformdirs pycparser pycryptodomex pydantic-core pydantic pygments pyqtdarktheme-fork qasync qcanvas-api-clients qcanvas-backend qtpy requests rich shelved-cache sniffio soupsieve sqlalchemy tenacity typing-extensions urllib3 validators websockets yarl yt-dlp"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation qcanvas aiosqlite annotated-types anyio asynchronize asynctaskpool backoff beautifulsoup4 brotli brotlicffi cachetools certifi cffi charset-normalizer darkdetect gql graphql-core greenlet h11 httpcore httpx idna lightdb multidict mutagen packaging platformdirs pycparser pycryptodomex pydantic-core pydantic pyqtdarktheme-fork qasync qcanvas-api-clients qcanvas-backend qtpy requests shelved-cache sniffio soupsieve sqlalchemy tenacity typing-extensions urllib3 validators websockets yarl yt-dlp"
     ],
     "sources": [
         {
@@ -172,16 +172,6 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl",
-            "sha256": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
-            "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
-        },
-        {
-            "type": "file",
             "url": "https://files.pythonhosted.org/packages/3f/e1/7fdd0f39565df3af87d6c2903fb66a7d529fbd0a8a066045d7a5b6ad1145/multidict-6.0.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
             "sha256": "7be7047bd08accdb7487737631d25735c9a04327911de89ff1b26b81745bd4e3",
             "only-arches": [
@@ -255,11 +245,6 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl",
-            "sha256": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"
-        },
-        {
-            "type": "file",
             "url": "https://files.pythonhosted.org/packages/4d/06/8a77ddbc37efd415602237fbb9685e0a52e112d31dfc3a7cb28c8656dd2c/pyqtdarktheme_fork-2.3.2-py3-none-any.whl",
             "sha256": "d96ee64f0884678fad9b6bc352d5e37d84ca786fa60ed32ffaa7e6c6bc67e964"
         },
@@ -270,18 +255,18 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/bc/b3/f2cf2a5eb1dcf6e8aa2236c4b9af1e353edfea6a5e8793b5ce7a4d4da666/qcanvas-1.0.11-py3-none-any.whl",
-            "sha256": "0b992d674b036d1de3356267073e758b8ffadf1280cd75c1ee7cab0a84c611d7"
+            "url": "https://files.pythonhosted.org/packages/c3/fe/730b0bd41749c4b7bb25e1f23417c4e8c7651b6db3d53188cc5dd76e8d50/qcanvas-1.1.0-py3-none-any.whl",
+            "sha256": "2a95f9f7ab339a68259d711fd74efceda2005ee5d6a7dc3eb6c673d8a4bc3d38"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7a/ef/1783cefdca26d1727ca428a9caee4145fd9f03fc7ba8d4ad999a9e343264/qcanvas_api_clients-0.2.3-py3-none-any.whl",
-            "sha256": "3dd2ef222680333d0b12c6519e29c59450ef8fe052e447ad2a656243d36df19d"
+            "url": "https://files.pythonhosted.org/packages/30/be/5e766306da445eadbfdcbd538453aeb20d8f66239d270d1f1642a0e2a828/qcanvas_api_clients-0.3.0-py3-none-any.whl",
+            "sha256": "ee3c1f749aca64e193b52a46598fb124edf005b64791f565f0c932419e47132f"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8a/1e/79b524053a482e50af7af784d9dbdb7b43522f145251e8776689b48b6154/qcanvas_backend-0.1.10-py3-none-any.whl",
-            "sha256": "2ae972617ff324c0e4298b057d2acfd7a7516e6efd599c530527a1406c3a6ae2"
+            "url": "https://files.pythonhosted.org/packages/35/9d/5d616675c6ac4c742ad39243ecd8d9ff9b7270f41ef6c946bc9016efd817/qcanvas_backend-0.2.0-py3-none-any.whl",
+            "sha256": "c1d476ce83ca1b4702814d5712d75a00a69834af7ecf71596212c79de7bf37c2"
         },
         {
             "type": "file",
@@ -292,11 +277,6 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
             "sha256": "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/87/67/a37f6214d0e9fe57f6ae54b2956d550ca8365857f42a1ce0392bb21d9410/rich-13.7.1-py3-none-any.whl",
-            "sha256": "4edbae314f59eb482f54e9e30bf00d33350aaa94f4bfcd4e9e3110e64d0d7222"
         },
         {
             "type": "file",
@@ -315,16 +295,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b4/06/9c9b1ddf8ab38d0a550b249e6978582b96181094360e86d2f591b256886b/SQLAlchemy-2.0.31-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "bd15026f77420eb2b324dcb93551ad9c5f22fab2c150c286ef1dc1160f110203",
+            "url": "https://files.pythonhosted.org/packages/6b/b5/95ff12f5d4eb7813dd5a59ccc8e3c68d4683fedf59801b40704593c3b757/SQLAlchemy-2.0.32-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "723a40ee2cc7ea653645bd4cf024326dea2076673fc9d3d33f20f6c81db83e1d",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/bb/be/4045425132a2fde3422e0d2062e6a3b874e385b98b0442c1d7d29ac152bc/SQLAlchemy-2.0.31-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "2196208432deebdfe3b22185d46b08f00ac9d7b01284e168c212919891289396",
+            "url": "https://files.pythonhosted.org/packages/ca/af/379f8695ab751acf61868b0098c8d66e2b2ad8b11d9939d5144c82d05bc5/SQLAlchemy-2.0.32-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "295ff8689544f7ee7e819529633d058bd458c1fd7f7e3eebd0f9268ebc56c2a0",
             "only-arches": [
                 "x86_64"
             ]
@@ -383,8 +363,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/16/61/11d8c5bf197e596109dc51f1645149e26fc6c36bea423319e4eeb3e42192/yt_dlp-2024.7.25-py3-none-any.whl",
-            "sha256": "f44b5f33776b4f718900c670fe6e4698fb6fcd426455cd837cf25a1d6d4d9560"
+            "url": "https://files.pythonhosted.org/packages/01/ba/585ea70a2caa4f25447080144398c8243b117eb5deb6462622bbce5ea4a4/yt_dlp-2024.8.1-py3-none-any.whl",
+            "sha256": "d0d927038e30a05f6eab26ff6189628456ea21bb159a3d9dc2e855eef2810eac"
         }
     ]
 }
