@@ -260,8 +260,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ca/04/0489313c7ce4e7d09c2891cfddf8491ef35c9f0d368f906c5998841bcbb5/qcanvas-1.2.0a0-py3-none-any.whl",
-            "sha256": "dc775bc8f0fce39a1786146e7bb012b3a031ca8bf4b467399a8aef99e12623db"
+            "url": "https://files.pythonhosted.org/packages/c4/91/2b2771efb65f134e009a894a5006d150df704e09151a6770769bf3f1fdaa/qcanvas-1.2.0a1-py3-none-any.whl",
+            "sha256": "5fd2a0a6cf3ab258a76397eaecf40fc26b8d4b5485642f2403d174b972636292"
         },
         {
             "type": "file",
