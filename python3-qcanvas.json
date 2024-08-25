@@ -260,8 +260,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c2/13/3c3b416d59e534d6d28472fb7374aec3060a383c258c617779e1b135a5e4/qcanvas-1.2.0-py3-none-any.whl",
-            "sha256": "6420bccc9eef57cba3a5bcc15353760a7842b64ed47623bbe2bd963fa319205b"
+            "url": "https://files.pythonhosted.org/packages/ed/c4/ee37a0cc99fcfb0bc26ba8274dd3bafb26276d494dc36698b857bd1fd029/qcanvas-1.2.1-py3-none-any.whl",
+            "sha256": "2fc9212a521c32ad29336441c2972084bb4d7016c2ca19ded5a2960f076b1bc7"
         },
         {
             "type": "file",
@@ -270,8 +270,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6c/c8/22e628df798e2fbb168a0f24fc22b76bff8363215abbb893245632fc8126/qcanvas_backend-0.2.5-py3-none-any.whl",
-            "sha256": "3f34c0b3ca95ba373ec6cdf81e91394735ebd418f04129ac5c487e698f8ac1ee"
+            "url": "https://files.pythonhosted.org/packages/65/1d/2813efe93b4d791e4c18ed4b04f55d740bb92f23ef7a0e8f36a8541f41fb/qcanvas_backend-0.2.7-py3-none-any.whl",
+            "sha256": "9cca8972e224290d45aa21cb5e6dbfd2d06135c6360f1cfac6122197d0afecad"
         },
         {
             "type": "file",
