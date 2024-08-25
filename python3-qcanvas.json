@@ -74,8 +74,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/04/e6/a1551acbaa06f3e48b311329828a34bc9c51a8cfaecdeb4d03c329a1ef85/cachetools-5.4.0-py3-none-any.whl",
-            "sha256": "3ae3b49a3d5e28a77a0be2b37dbcb89005058959cb2323858c2657c4a8cab474"
+            "url": "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
+            "sha256": "02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"
         },
         {
             "type": "file",
@@ -162,8 +162,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl",
-            "sha256": "82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
+            "url": "https://files.pythonhosted.org/packages/22/7e/d71db821f177828df9dea8c42ac46473366f191be53080e552e628aad991/idna-3.8-py3-none-any.whl",
+            "sha256": "050b4e5baadcd44d760cedbd2b8e639f2ff89bbc7a5730fcc662954303377aac"
         },
         {
             "type": "file",
@@ -260,18 +260,18 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c4/91/2b2771efb65f134e009a894a5006d150df704e09151a6770769bf3f1fdaa/qcanvas-1.2.0a1-py3-none-any.whl",
-            "sha256": "5fd2a0a6cf3ab258a76397eaecf40fc26b8d4b5485642f2403d174b972636292"
+            "url": "https://files.pythonhosted.org/packages/c2/13/3c3b416d59e534d6d28472fb7374aec3060a383c258c617779e1b135a5e4/qcanvas-1.2.0-py3-none-any.whl",
+            "sha256": "6420bccc9eef57cba3a5bcc15353760a7842b64ed47623bbe2bd963fa319205b"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/30/be/5e766306da445eadbfdcbd538453aeb20d8f66239d270d1f1642a0e2a828/qcanvas_api_clients-0.3.0-py3-none-any.whl",
-            "sha256": "ee3c1f749aca64e193b52a46598fb124edf005b64791f565f0c932419e47132f"
+            "url": "https://files.pythonhosted.org/packages/a8/ad/819051e5577d00cebb548f879aa990d81f434024627e552bec831ed49dcd/qcanvas_api_clients-0.3.1-py3-none-any.whl",
+            "sha256": "fa190faa80f29b1922436d12ea5852c2bd69418f9251632ba89614584d828f58"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ed/ff/bdb5a8a7183e7d2dd56c3317f059c57f003ece4bbe38af95c1e908234550/qcanvas_backend-0.2.2-py3-none-any.whl",
-            "sha256": "2a8af1699a0c97739f6d7f79a223ecb5c2cb6d2428c1a18dca406b194515f268"
+            "url": "https://files.pythonhosted.org/packages/6c/c8/22e628df798e2fbb168a0f24fc22b76bff8363215abbb893245632fc8126/qcanvas_backend-0.2.5-py3-none-any.whl",
+            "sha256": "3f34c0b3ca95ba373ec6cdf81e91394735ebd418f04129ac5c487e698f8ac1ee"
         },
         {
             "type": "file",
@@ -300,8 +300,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/4c/f3/038b302fdfbe3be7da016777069f26ceefe11a681055ea1f7817546508e3/soupsieve-2.5-py3-none-any.whl",
-            "sha256": "eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc7"
+            "url": "https://files.pythonhosted.org/packages/d1/c2/fe97d779f3ef3b15f05c94a2f1e3d21732574ed441687474db9d342a7315/soupsieve-2.6-py3-none-any.whl",
+            "sha256": "e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9"
         },
         {
             "type": "file",
@@ -321,8 +321,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d2/3f/8ba87d9e287b9d385a02a7114ddcef61b26f86411e121c9003eb509a1773/tenacity-8.5.0-py3-none-any.whl",
-            "sha256": "b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"
+            "url": "https://files.pythonhosted.org/packages/b6/cb/b86984bed139586d01532a587464b5805f12e397594f19f931c4c2fbfa61/tenacity-9.0.0-py3-none-any.whl",
+            "sha256": "93de0c98785b27fcf659856aa9f54bfbd399e29969b0621bc7f762bd441b4539"
         },
         {
             "type": "file",
@@ -341,16 +341,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6e/a4/51a25e591d645df71ee0dc3a2c880b28e5514c00ce752f98a40a87abcd1e/websockets-12.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "8e332c210b14b57904869ca9f9bf4ca32f5427a03eeb625da9b616c85a3a506c",
+            "url": "https://files.pythonhosted.org/packages/fe/df/0a8a90162c32ceb9f28415291c1d689310b503288d29169302964105a351/websockets-13.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "b89849171b590107f6724a7b0790736daead40926ddf47eadf998b4ff51d6414",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e3/05/f52a60b66d9faf07a4f7d71dc056bffafe36a7e98c4eb5b78f04fe6e4e85/websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "6e9e7db18b4539a29cc5ad8c8b252738a30e2b13f033c2d6e9d0549b45841c04",
+            "url": "https://files.pythonhosted.org/packages/fe/dd/3384d3eb26022703895d6ed65aec2d3af6976c3d9aed06200a322e7192cb/websockets-13.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "ad818cdac37c0ad4c58e51cb4964eae4f18b43c4a83cb37170b0d90c31bd80cf",
             "only-arches": [
                 "x86_64"
             ]
