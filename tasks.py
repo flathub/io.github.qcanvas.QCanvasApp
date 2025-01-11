@@ -4,11 +4,12 @@
 
 from invoke import task
 from pathlib import Path
+import shutil
 
 @task
 def clean(c):
     for directory in ["repo", ".flatpak-builder", "builddir"]:
-        Path(directory).unlink(missing_ok=True)
+        shutil.rmtree(directory, ignore_errors=True)
 
 @task
 def build(c):
