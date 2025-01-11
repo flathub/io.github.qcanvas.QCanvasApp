@@ -1,0 +1,74 @@
+#! /usr/bin/env uv run
+
+# /// script
+# dependencies = [ "gitpython", "plumbum" ]
+# ///
+
+from git import Repo
+from git.remote import FetchInfo
+
+from pathlib import Path
+from plumbum import local
+import json
+
+TARGET_PYTHON_VERSION = "312"  # 3.12
+
+poetry = local["poetry"]
+req2flatpak = local["req2flatpak"]
+
+
+work_dir = Path(".work-dir")
+work_dir.mkdir(exist_ok=True)
+qcanvas_dir = work_dir / "QCanvas"
+
+if not qcanvas_dir.exists():
+    qcanvas = Repo.clone_from(
+        "https://github.com/QCanvas/QCanvasApp", to_path=qcanvas_dir
+    )
+else:
+    qcanvas = Repo(qcanvas_dir)
+
+
+def update_local_repo():
+    print("Updating local repo")
+    qcanvas.head.reset(index=True, working_tree=True)
+    qcanvas.remotes.origin.fetch()
+
+    # checkout latest tag
+    qcanvas.git.checkout(qcanvas.tags[-1])
+
+
+def update_dependencies():
+    print("Updating dependencies")
+    with local.cwd(qcanvas_dir):
+        poetry(
+            "export --without-hashes -f requirements.txt -o ../requirements.txt".split()
+        )
+
+    latest_tag = qcanvas.tags[-1].name
+
+    req2flatpak(
+        (
+            f"--requirements-file .work-dir/requirements.txt "
+            f"--target-platforms {TARGET_PYTHON_VERSION}-x86_64 {TARGET_PYTHON_VERSION}-aarch64 "
+            "--outfile python3-qcanvas.json "
+            f"--requirements qcanvas=={latest_tag[1:]}"
+        ).split(),
+    )
+
+
+def update_commit_hash():
+    print("Updating commit hash")
+    qcanvas.git.checkout("reborn")
+    manifest_file = Path("qcanvas-desktop-files.json")
+    latest_commit_hash = qcanvas.rev_parse("HEAD").hexsha
+
+    manifest = json.loads(manifest_file.read_text())
+    manifest["sources"][0]["commit"] = latest_commit_hash
+
+    manifest_file.write_text(json.dumps(manifest, indent=4))
+
+
+update_local_repo()
+update_dependencies()
+update_commit_hash()  # Make sure this is last, it checks out a different commit
