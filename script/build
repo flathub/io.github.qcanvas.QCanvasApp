@@ -8,5 +8,5 @@ flatpak run org.flatpak.Builder \
 --install-deps-from=flathub \
 --ccache \
 --mirror-screenshots-url=https://dl.flathub.org/media/ \
---repo=repo builddir \
+--repo=.work-dir/repo .work-dir/builddir \
 io.github.qcanvas.QCanvasApp.yaml
