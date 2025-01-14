@@ -1,4 +1,4 @@
 #! /usr/bin/bash
 
 flatpak run --command=flatpak-builder-lint org.flatpak.Builder manifest io.github.qcanvas.QCanvasApp.yaml
-flatpak run --command=flatpak-builder-lint org.flatpak.Builder repo repo
+flatpak run --command=flatpak-builder-lint org.flatpak.Builder repo .work-dir/repo
