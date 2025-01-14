@@ -1,0 +1,6 @@
+#! /usr/bin/python3
+
+import shutil
+
+for directory in ["repo", ".flatpak-builder", "builddir"]:
+    shutil.rmtree(directory, ignore_errors=True)
