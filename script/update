@@ -59,7 +59,7 @@ def update_dependencies():
 
 def update_commit_hash():
     print("Updating commit hash")
-    qcanvas.git.checkout("reborn")
+    qcanvas.git.checkout("origin/reborn")
     manifest_file = Path("qcanvas-desktop-files.json")
     latest_commit_hash = qcanvas.rev_parse("HEAD").hexsha
 
