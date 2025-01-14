@@ -57,16 +57,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/73/de/3ea93e57b82e5475bcf9c3262e8d6c75d2563fe1a07bb5ec3aff3ba6a595/caio-0.9.19-cp312-cp312-manylinux_2_34_aarch64.whl",
-            "sha256": "f2bc23784f50ac8a2b5a3a0625ff181a92cbb8f4ce532d23a6be441c38deb7c8",
+            "url": "https://files.pythonhosted.org/packages/ca/ab/a0a0c448c2234277b39970c698861f4d4e3ceadb46f4011f410fca89c7b3/caio-0.9.21-cp312-cp312-manylinux_2_34_aarch64.whl",
+            "sha256": "1f4241e2b89f31e1fea342c8da9a987fef71d093df7ba1169f469d0be7592608",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f7/7c/f046982b4c22a8843ac1c16dbfc2f6b8d8b6a91fc35ec24b0f3b12bfdb9c/caio-0.9.19-cp312-cp312-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_34_x86_64.whl",
-            "sha256": "a743fda13e194b21df922ea0cee404e2bcac72a722c469eed6bd893a0cdec1c0",
+            "url": "https://files.pythonhosted.org/packages/f2/95/738ef0a4468ea963156c2f1db69669cf435d1f2e36e4796bc6ba39bb2016/caio-0.9.21-cp312-cp312-manylinux_2_34_x86_64.whl",
+            "sha256": "fdab8c817b6835d997db1532ce7d9f5cbe186265bf0ee9a9840b378aa4a1cba7",
             "only-arches": [
                 "x86_64"
             ]
@@ -144,13 +144,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0d/db/dc09586ddb9c8709458312be7714339cf7cb49024e3cf19a4c31c2756514/libqcanvas-0.5.1-py3-none-any.whl",
-            "sha256": "242367e4d4eed63c1c97f8e66c9880c306273a691cd65ee711d5a530bf516cfd"
+            "url": "https://files.pythonhosted.org/packages/61/51/c17e2547b119cf3bf92f56489260742909b515727ee424adbc6597ff6f75/libqcanvas-0.5.4-py3-none-any.whl",
+            "sha256": "c2bf7fb4041749d8a06347aac9113aad80dd1f6074c43fc1fd0326567385ffbd"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/2e/98/006a924ca35f72b11c340bad271f18dd9d23f438f0a7e4a743d5d15705c0/libqcanvas_clients-0.5.4-py3-none-any.whl",
-            "sha256": "fb338b54baea9a664a7d5911de0719111e6bf0c9ffc00d3cea7940121a94d34b"
+            "url": "https://files.pythonhosted.org/packages/ce/de/c5229fb975741cbd38c51b56bde35bfedcc765cd9823a70146483dfe2812/libqcanvas_clients-0.5.5-py3-none-any.whl",
+            "sha256": "81c3b07a8d8eee554aa76b9605dbbeebeee9ecd62964200ab314642e733860c7"
         },
         {
             "type": "file",
@@ -243,8 +243,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/75/91/e8d36a7777c6359e0b48514c838f5e6c9c543d3d76f4de78a72897ca7731/qcanvas-2.0.0-py3-none-any.whl",
-            "sha256": "4729a7aa2923d8ac860021faffcdedcbba71c50c5623a2318616755b07ce36e0"
+            "url": "https://files.pythonhosted.org/packages/d6/20/1bec9000cfcd13bdfd778e2effb7a24432110cb421d3be757f23c31f04a1/qcanvas-2.0.2-py3-none-any.whl",
+            "sha256": "cb92a8e771448a2bb6b77a31751f13260110450a5fc6efb7e72185a69e016b83"
         },
         {
             "type": "file",
@@ -305,8 +305,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/70/d3/dc656c921f45baaba4d439292194b5be7f48b3558fcc38941aca16fa5afa/yt_dlp-2024.12.23-py3-none-any.whl",
-            "sha256": "2fc08a5221a0379628ac4e7324c6c69a95b9fdfa7a7ca3187444b3b7451e38be"
+            "url": "https://files.pythonhosted.org/packages/f3/9d/782c67465798478b3f8cf8c72da771e1eb0956e13b820f862b35de66d4a7/yt_dlp-2025.1.12-py3-none-any.whl",
+            "sha256": "f7ea19afb64f8e457a1b9598ddb67f8deaa313bf1d57abd5612db9272ab10795"
         }
     ]
 }
