@@ -12,13 +12,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/00/c4/c93eb22025a2de6b83263dfe3d7df2e19138e345bca6f18dba7394120930/aiosqlite-0.20.0-py3-none-any.whl",
-            "sha256": "36a1deaca0cac40ebe32aac9977a6e2bbc7f5189f23f4a54d5908986729e5bd6"
+            "url": "https://files.pythonhosted.org/packages/f5/10/6c25ed6de94c49f88a91fa5018cb4c0f3625f31d5be9f771ebe5cc7cd506/aiosqlite-0.21.0-py3-none-any.whl",
+            "sha256": "2549cf4057f95f53dcba16f2b64e8e2791d7e1adedb13197dd8ed77bb226d7d0"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/cb/06/8b505aea3d77021b18dcbd8133aa1418f1a1e37e432a465b14c46b2c0eaa/alembic-1.14.0-py3-none-any.whl",
-            "sha256": "99bd884ca390466db5e27ffccff1d179ec5c05c965cfefc0607e69f9e411cb25"
+            "url": "https://files.pythonhosted.org/packages/99/f7/d398fae160568472ddce0b3fde9c4581afc593019a6adc91006a66406991/alembic-1.15.1-py3-none-any.whl",
+            "sha256": "197de710da4b3e91cf66a826a5b31b5d59a127ab41bd0fc42863e2902ce2bbbe"
         },
         {
             "type": "file",
@@ -47,13 +47,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b1/fe/e8c672695b37eecc5cbf43e1d0638d88d66ba3a44c4d321c796f4e59167f/beautifulsoup4-4.12.3-py3-none-any.whl",
-            "sha256": "b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
+            "url": "https://files.pythonhosted.org/packages/f9/49/6abb616eb3cbab6a7cca303dc02fdf3836de2e0b834bf966a7f5271a34d8/beautifulsoup4-4.13.3-py3-none-any.whl",
+            "sha256": "99045d7d3f08f91f0d656bc9b7efbae189426cd913d830294a15eefa0ea4df16"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
-            "sha256": "02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"
+            "url": "https://files.pythonhosted.org/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl",
+            "sha256": "d26a22bcc62eb95c3beabd9f1ee5e820d3d2704fe2967cbe350e20c8ffcd3f0a"
         },
         {
             "type": "file",
@@ -73,8 +73,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a5/32/8f6669fc4798494966bf446c8c4a162e0b5d893dff088afddf76414f70e1/certifi-2024.12.14-py3-none-any.whl",
-            "sha256": "1275f7a45be9464efc1173084eaa30f866fe2e47d389406136d332ed4967ec56"
+            "url": "https://files.pythonhosted.org/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl",
+            "sha256": "ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe"
         },
         {
             "type": "file",
@@ -83,13 +83,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/74/fb/01a200e1c31b79690427c8e983014e4220d2652b4372a46fe4598e1d7a8e/gql-3.5.0-py2.py3-none-any.whl",
-            "sha256": "70dda5694a5b194a8441f077aa5fb70cc94e4ec08016117523f013680901ecb7"
+            "url": "https://files.pythonhosted.org/packages/20/ae/422da340e4daec7b2d33cbd1de3240147bd1abd6b429790e44715dc1492f/gql-3.5.1-py2.py3-none-any.whl",
+            "sha256": "e58f23b7e2bc7239ffcf5950f43f978b27da27c348201ff8a68127a1f8ebd54c"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e3/dc/078bd6b304de790618ebb95e2aedaadb78f4527ac43a9ad8815f006636b6/graphql_core-3.2.5-py3-none-any.whl",
-            "sha256": "2f150d5096448aa4f8ab26268567bbfeef823769893b39c1a2e1409590939c8a"
+            "url": "https://files.pythonhosted.org/packages/f8/39/e5143e7ec70939d2076c1165ae9d4a3815597019c4d797b7f959cf778600/graphql_core-3.2.3-py3-none-any.whl",
+            "sha256": "5766780452bd5ec8ba133f8bf287dc92713e3868ddd83aee4faab9fc3e303dc3"
         },
         {
             "type": "file",
@@ -114,13 +114,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/2a/e5/db6d438da759efbb488c4f3fbdab7764492ff3c3f953132efa6b9f0e9e53/h2-4.1.0-py3-none-any.whl",
-            "sha256": "03a46bcf682256c95b5fd9e9a99c1323584c3eec6440d379b9903d709476bc6d"
+            "url": "https://files.pythonhosted.org/packages/d0/9e/984486f2d0a0bd2b024bf4bc1c62688fcafa9e61991f041fb0e2def4a982/h2-4.2.0-py3-none-any.whl",
+            "sha256": "479a53ad425bb29af087f3458a61d30780bc818e4ebcf01f0b536ba916462ed0"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d5/34/e8b383f35b77c402d28563d2b8f83159319b509bc5f760b15d60b0abf165/hpack-4.0.0-py3-none-any.whl",
-            "sha256": "84a076fad3dc9a9f8063ccb8041ef100867b1878b25ef0ee63847a5d53818a6c"
+            "url": "https://files.pythonhosted.org/packages/07/c6/80c95b1b2b94682a72cbdbfb85b81ae2daffa4291fbfa1b1464502ede10d/hpack-4.1.0-py3-none-any.whl",
+            "sha256": "157ac792668d995c657d93111f46b4535ed114f0c9c8d672271bbec7eae1b496"
         },
         {
             "type": "file",
@@ -134,8 +134,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d7/de/85a784bcc4a3779d1753a7ec2dee5de90e18c7bcf402e71b51fcf150b129/hyperframe-6.0.1-py3-none-any.whl",
-            "sha256": "0ec6bafd80d8ad2195c4f03aacba3a8265e57bc4cff261e802bf39970ed02a15"
+            "url": "https://files.pythonhosted.org/packages/48/30/47d0bf6072f7252e6521f3447ccfa40b421b6824517f82854703d0f5a98b/hyperframe-6.1.0-py3-none-any.whl",
+            "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5"
         },
         {
             "type": "file",
@@ -144,8 +144,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/61/51/c17e2547b119cf3bf92f56489260742909b515727ee424adbc6597ff6f75/libqcanvas-0.5.4-py3-none-any.whl",
-            "sha256": "c2bf7fb4041749d8a06347aac9113aad80dd1f6074c43fc1fd0326567385ffbd"
+            "url": "https://files.pythonhosted.org/packages/5a/1c/26c242524149cc342c5415fd9d2ccd339fc1cec96c7b3e4cd60b0b3ec332/libqcanvas-0.5.5-py3-none-any.whl",
+            "sha256": "e5e802ccc3e139a382beed561d4564c2d12e6f58311d5d6fb1d331e3665f6ccd"
         },
         {
             "type": "file",
@@ -154,8 +154,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1e/bf/7a6a36ce2e4cafdfb202752be68850e22607fccd692847c45c1ae3c17ba6/Mako-1.3.8-py3-none-any.whl",
-            "sha256": "42f48953c7eb91332040ff567eb7eea69b22e7a4affbc5ba8e845e8f730f6627"
+            "url": "https://files.pythonhosted.org/packages/cd/83/de0a49e7de540513f53ab5d2e105321dedeb08a8f5850f0208decf4390ec/Mako-1.3.9-py3-none-any.whl",
+            "sha256": "95920acccb578427a9aa38e37a186b1e43156c87260d7ba18ca63aa4c7cbd3a1"
         },
         {
             "type": "file",
@@ -196,24 +196,24 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7f/14/7ae06a6cf2a2f1cb382586d5a99efe66b0b3d0c6f9ac2f759e6f7af9d7cf/propcache-0.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "049324ee97bb67285b49632132db351b41e77833678432be52bdd0289c0e05e4",
+            "url": "https://files.pythonhosted.org/packages/73/20/d75b42eaffe5075eac2f4e168f6393d21c664c91225288811d85451b2578/propcache-0.3.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "67054e47c01b7b349b94ed0840ccae075449503cf1fdd0a1fdd98ab5ddc2667b",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1c/07/ebe102777a830bca91bbb93e3479cd34c2ca5d0361b83be9dbd93104865e/propcache-0.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "647894f5ae99c4cf6bb82a1bb3a796f6e06af3caa3d32e26d2350d0e3e3faf24",
+            "url": "https://files.pythonhosted.org/packages/9d/c4/ecfc988879c0fd9db03228725b662d76cf484b6b46f7e92fee94e4b52490/propcache-0.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "8884ba1a0fe7210b775106b25850f5e5a9dc3c840d1ae9924ee6ea2eb3acbfe7",
             "only-arches": [
                 "x86_64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/58/26/82663c79010b28eddf29dcdd0ea723439535fa917fce5905885c0e9ba562/pydantic-2.10.5-py3-none-any.whl",
-            "sha256": "4dd4e322dbe55472cb7ca7e73f4b63574eecccf2835ffa2af9021ce113c83c53"
+            "url": "https://files.pythonhosted.org/packages/f4/3c/8cc1cc84deffa6e25d2d0c688ebb80635dfdbf1dbea3e30c541c8cf4d860/pydantic-2.10.6-py3-none-any.whl",
+            "sha256": "427d664bf0b8a2b34ff5dd0f5a18df00591adcee7198fbd71981054cef37b584"
         },
         {
             "type": "file",
@@ -243,8 +243,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d6/20/1bec9000cfcd13bdfd778e2effb7a24432110cb421d3be757f23c31f04a1/qcanvas-2.0.2-py3-none-any.whl",
-            "sha256": "cb92a8e771448a2bb6b77a31751f13260110450a5fc6efb7e72185a69e016b83"
+            "url": "https://files.pythonhosted.org/packages/c2/d6/c00f23c016ee2b222cbd5a8e3bec4231708e62ad6dffc95dab4744171e74/qcanvas-2.0.4-py3-none-any.whl",
+            "sha256": "bed7f4043b70a9d84b3b74ec954b6d45e13fbcda0d487e78a2ef17b92023358f"
         },
         {
             "type": "file",
@@ -258,16 +258,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a4/d8/e3a6622e86e3ae3a41ba470d1bb095c1f2dedf6b71feae0b4b94b5951017/SQLAlchemy-2.0.37-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "eaa8039b6d20137a4e02603aba37d12cd2dde7887500b8855356682fc33933f4",
+            "url": "https://files.pythonhosted.org/packages/98/2d/5d66605f76b8e344813237dc160a01f03b987201e974b46056a7fb94a874/SQLAlchemy-2.0.38-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "ee3bee874cb1fadee2ff2b79fc9fc808aa638670f28b2145074538d4a6a5028e",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3a/ef/5a53a6a60ac5a5d4ed28959317dac1ff72bc16773ccd9b3fe79713fe27f3/SQLAlchemy-2.0.37-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "1cdba1f73b64530c47b27118b7053b8447e6d6f3c8104e3ac59f3d40c33aa9fd",
+            "url": "https://files.pythonhosted.org/packages/73/8d/b0539e8dce90861efc38fea3eefb15a5d0cfeacf818614762e77a9f192f9/SQLAlchemy-2.0.38-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "e185ea07a99ce8b8edfc788c586c538c4b1351007e614ceb708fd01b095ef33e",
             "only-arches": [
                 "x86_64"
             ]
@@ -305,8 +305,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f3/9d/782c67465798478b3f8cf8c72da771e1eb0956e13b820f862b35de66d4a7/yt_dlp-2025.1.12-py3-none-any.whl",
-            "sha256": "f7ea19afb64f8e457a1b9598ddb67f8deaa313bf1d57abd5612db9272ab10795"
+            "url": "https://files.pythonhosted.org/packages/9e/45/6d1b759e68f5363b919828fb0e0c167a1cd5003b5b7c74cc0f0c2096be4f/yt_dlp-2025.2.19-py3-none-any.whl",
+            "sha256": "3ed218eaeece55e9d715afd41abc450dc406ee63bf79355169dfde312d38fdb8"
         }
     ]
 }
