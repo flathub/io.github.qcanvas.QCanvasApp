@@ -141,13 +141,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/60/cd/5c40d6b86cee434a9f21efb8bf6f3510f2f94a77f6d7846df78464b84cec/libqcanvas-0.5.7-py3-none-any.whl",
-            "sha256": "7b94bf986ef0e27891ddf99af894b2eecd70b12b0be8443faf4e365c76901188"
+            "url": "https://files.pythonhosted.org/packages/5f/c0/0b612ba0439c5427ab6715ca3f031bea43e81c66be36af34261db19b65e1/libqcanvas-2026.1.20-py3-none-any.whl",
+            "sha256": "950607a70abaf333f998a704e7f333979f9b88660690a045d062421166883a9c"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/fa/6a/c19e144312cc9b9c3c0235ec13452aecfe9919aa44fc9abe3122b8caccfc/libqcanvas_clients-0.5.6-py3-none-any.whl",
-            "sha256": "4b44cda3489e330936a9032ae89c2317c8eab214505202c2b3f08f7840a4805a"
+            "url": "https://files.pythonhosted.org/packages/74/88/2e2da35b486a754296416e597b0862890e27d065652ac3a256b428c30079/libqcanvas_clients-2026.1.20-py3-none-any.whl",
+            "sha256": "43412562b87e198d3083ca294eb1558c8607092d65bda0afe937f941a209860a"
         },
         {
             "type": "file",
@@ -240,8 +240,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/11/d0/c65581330c5e11a4233df892f92d5290ccb1b462a614b576063d536871cf/qcanvas-2026.1.19-py3-none-any.whl",
-            "sha256": "99cd158c49dc8bb56ab97e7428cbf705bcf5dce5b838530e13f97e214df6a440"
+            "url": "https://files.pythonhosted.org/packages/34/15/7c289ab2227ef1a822d6f1d4d370e731e42f6f935b709bb0ac3f1eff86b6/qcanvas-2026.1.20-py3-none-any.whl",
+            "sha256": "bd9a657c70f0b44082637e21cd1cf0e04477cb998d585959dc1f06b0d5655491"
         },
         {
             "type": "file",
