@@ -11,7 +11,7 @@ from pathlib import Path
 from plumbum import local
 import json
 
-TARGET_PYTHON_VERSION = "313"  # 3.13
+TARGET_PYTHON_VERSION = "312"  # 3.12
 
 poetry = local["poetry"]
 req2flatpak = local["req2flatpak"]
